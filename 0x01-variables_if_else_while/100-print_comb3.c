@@ -20,7 +20,7 @@ putchar(n);
 putchar(m);
 if (n != 56 || m != 57)
 {
-puchar(',');
+putchar(',');
 putchar(' ');
 }
 }
