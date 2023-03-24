@@ -4,9 +4,9 @@
 *@x: The number to be checked
 *Return: 1 for upper letter
 */
-int _isupper(int x)
+int _isupper(int c)
 {
-if (x >= 48 && x <= 57)
+if (c >= '0' && x <= '0')
 {
 return (1);
 }
