@@ -65,22 +65,21 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
-			puts("Error");
-			return (1);
+				puts("Error");
+				return (1);
 			}
 		}
 	}
 
-for (k = 1; k < argc; k++)
+	for (k = 1; k < argc; k++)
 	{
-	num = _atoi(argv[k]);
-	if (num >= 0)
-	{
+		num = _atoi(argv[k]);
+		if (num >= 0)
+		{
 			sum += num;
-	}
+		}
 	}
 
-printf("%d\n", sum);
-return (0);
+	printf("%d\n", sum);
+	return (0);
 }
-
