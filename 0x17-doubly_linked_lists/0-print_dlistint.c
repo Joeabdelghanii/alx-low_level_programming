@@ -1,5 +1,5 @@
 #include "lists.h"
-//Question Print list
+
 /**
  * print_dlistint - prints all the elements of a
  * dlistint_t list
@@ -9,7 +9,6 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	//Initializing Var
 	int count;
 
 	count = 0;
@@ -29,4 +28,3 @@ size_t print_dlistint(const dlistint_t *h)
 
 	return (count);
 }
-//end
