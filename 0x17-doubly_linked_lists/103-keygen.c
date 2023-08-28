@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//Question keygen
+
 /**
  * f4 - finds the biggest number
  *
@@ -125,4 +125,3 @@ int main(int argc, char **argv)
 		printf("%c", keygen[ch]);
 	return (0);
 }
-//SOLVED
